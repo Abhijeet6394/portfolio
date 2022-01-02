@@ -1,0 +1,78 @@
+body{
+
+}
+.main_container{
+    width: 80vw;
+    height: 50vw;
+    background-color: #dce6e0;
+    margin: auto
+}
+.navigation_bar{
+    position: sticky;
+    top: 0rem;
+    background-color: black;
+    height: 4vw;
+    color: white;
+}
+.nav_left{
+    float: left;
+}
+.nav_right{
+    float: right;
+    padding: 0.5rem;
+}
+a{
+    color: white;
+    text-decoration: none;
+    margin: 0.4rem;
+    font-size: 1.2rem;
+
+}
+button{
+    padding: 0.4rem;
+    color: white;
+    background-color:#ff5f59;
+}
+.consultant_btn{
+    padding: 0.4rem;
+    color: white;
+    background-color: #1c73ff;
+
+}
+button:hover{
+    background-color: #ff443d;
+}
+.content{
+    margin-top: 5rem;
+}
+.content_left{
+    float: left;
+    margin: 5rem 0rem 0rem 5rem;
+}
+.content_right{
+    float: right;
+}
+img{
+    height: 40vw;
+    width: 40vw;
+}
+.nav_left > h3{
+    margin-left: 0.5rem;
+    font-family: 'Philosopher', sans-serif;
+}
+h1{
+    font-size: 3rem;
+    margin: 0rem;
+    font-family: 'Philosopher', sans-serif;
+}
+.learn_btn{
+    padding: 1rem;
+}
+.hire_btn{
+    padding: 1rem;
+    background-color: #dce6e0;
+    color: black;
+}
+.hire_btn:hover{
+    color: white;
+}
